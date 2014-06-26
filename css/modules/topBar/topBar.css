@@ -1,0 +1,32 @@
+/* ==========================================================================
+   topBar Module
+   --------------------------------------------------------------------------
+   > 1240px
+   ========================================================================== */
+
+section#topBar {
+	position: fixed;
+	top: 0px;
+}
+
+#topBar a {
+	float: left;
+	width: 41px;
+	height: 42px;
+	text-indent: -9999px;
+	background: url('../../../images/logo.png') center center no-repeat;
+	position: relative;
+	margin-top: 32px;
+}
+
+#topBar menu {
+	float: right;
+	width: 32px;
+	height: 23px;
+	text-indent: -9999px;
+	background: url('../../../images/menu.png') center center no-repeat;
+	padding: 0;
+	margin-top: 40px;
+	position: relative;
+
+}
