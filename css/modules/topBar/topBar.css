@@ -31,3 +31,7 @@ section#topBar {
 	position: relative;
 
 }
+
+#topBar menu.open {
+	background: url('../../../images/menu_close.png') center center no-repeat;
+}
