@@ -1,0 +1,54 @@
+/* ==========================================================================
+   front-aboutOverview Module
+   --------------------------------------------------------------------------
+   > 1240px
+   ========================================================================== */
+
+#aboutOverview article {
+	float:left;
+	width:600px;
+	display: block;
+	position: relative;
+	margin-left: 640px;
+}
+
+#aboutOverview span {
+	float: left;
+	display: block;
+	position: relative;
+	z-index: 1;
+	height: 320px;
+	background-color: #514f4e;
+	color: #a9a8a8;
+	padding: 40px;
+	width: 520px;
+}
+
+#aboutOverview span h2 {
+	width: 100%;
+	float: left;
+	position: relative;
+	top:0px;
+	left: 0px;
+	font-size: 1.8em;
+}
+#aboutOverview span em {
+	width: 100%;
+	float: left;
+	display: block;
+	font-style: normal;
+	color:#a9a8a8;
+}
+#aboutOverview span p {
+  margin: 40px 0 0 0;
+  color:#a9a8a8;
+  line-height: 1.5em;
+  float: left;
+  display: block;
+}
+
+#aboutOverview span a {
+	color: #a9a8a8;
+	text-decoration: underline;
+}
+

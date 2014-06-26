@@ -81,12 +81,6 @@
 	background-color: #000;
 }
 
-#overview h1, #overview h2 {
-	margin: 0;
-	padding: 0;
-	font-weight: normal;
-}
-
 #overview article:first-child {
 	margin-right: 40px;
 }
