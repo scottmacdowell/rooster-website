@@ -3,36 +3,18 @@
    --------------------------------------------------------------------------
    > 1240px
    ========================================================================== */
-
-section#home{
-	background-color: #FFF;
-	background-image: url('../../../images/home_bg.png');
-	background-repeat: no-repeat;
-	background-size: 100%;
-	background-position: center top;
-	height: 100%;
-	min-height: 100%;
+section#viewProjects{
+	padding: 72px 0;
 }
-#home div {
-	height: 100%;
-	min-height: inherit;
-}
-#home p {
-	float:left;
-	margin: 25% 50% 0 0;
-	padding: 99px 0 0 0;
+#viewProjects a{
+	margin: 0 auto;
+	height: 46px;
+	font-size: 1.8em;
+	line-height: 46px;
+	width: 246px;
+	border: 1px solid #000;
+	float: none;
 	display: block;
-	position: relative;
-	width:50%;
-	background: url('../../../images/logo_text.png') center top no-repeat;
 	text-align: center;
-}
-
-#home a{
-	position: absolute;
-	width:200px;
-	left: 50%;
-	margin-left: -100px;
-	bottom: 20px;
-	text-align: center;
+	color: #252525;
 }
