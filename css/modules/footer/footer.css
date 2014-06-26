@@ -1,0 +1,18 @@
+/* ==========================================================================
+   footer Module
+   --------------------------------------------------------------------------
+   > 1240px
+   ========================================================================== */
+footer#footer{
+	padding: 200px 0 40px 0;
+}
+#footer a{
+	margin: 0 auto;
+	height: 60px;
+	width: 60px;
+	float: none;
+	display: block;
+	color: #252525;
+	background: #514f4e url('../../../images/logo_footer.png') center center no-repeat;
+	text-indent: -9999px;
+}

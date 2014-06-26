@@ -11,7 +11,7 @@ section#home{
 	background-size: 100%;
 	background-position: center top;
 	height: 100%;
-	min-height: 100%;
+	min-height: 640px;
 }
 #home div {
 	height: 100%;
