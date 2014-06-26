@@ -1,0 +1,134 @@
+/* ==========================================================================
+   front-overview Module
+   --------------------------------------------------------------------------
+   > 1240px
+   ========================================================================== */
+
+#overview article {
+	float:left;
+	width:600px;
+	display: block;
+	position: relative;
+}
+
+#overview span {
+	height: auto;
+	width: 100%;
+	margin-top: 42px;
+	float: left;
+	display: block;
+	position: relative;
+	z-index: 1;
+}
+
+#overview span:hover a{ display: block; }
+#overview span:hover h2{ color: #ffffff; z-index: 4;}
+
+#overview img {
+	width: 100%;
+	display: block;
+	position: relative;
+	z-index: 2;
+}
+
+#overview h2 {
+	width:auto;
+	height: auto;
+	position: absolute;
+	z-index: 3;
+	font-size: 1em;
+	top: 18px;
+	left: 18px;
+}
+
+#overview a {
+	width:100%;
+	height: 100%;
+	position: absolute;
+	z-index: 3;
+	background: url('../../../images/black_hover_bg.png') repeat;
+	display: none;
+}
+
+#overview p {
+	color: #959595;
+	font-size: 1em;
+	display: block;
+	width: 100%;
+	float: left;
+} 
+
+#overview h1 {
+	font-size: 1.8em;
+}
+
+#overview strong {
+	width: 198px;
+	height: 46px;
+	display: block;
+	margin: -18px auto 0 auto;
+	border: #ffffff 1px solid;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	line-height: 46px;
+	font-weight: normal;
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+}
+#overview strong:hover {
+	background-color: #000;
+}
+
+#overview h1, #overview h2 {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+
+#overview article:first-child {
+	margin-right: 40px;
+}
+#overview article:first-child span:first-child {
+	height:340px;
+}
+
+#overview article:last-child span:first-child {
+	margin-top: 424px;
+}
+
+/* NEWS Section */
+#overview span.news { 
+	height: 320px;
+	background-color: #514f4e;
+	color: #a9a8a8;
+	padding: 40px;
+	width: 520px;
+}
+
+#overview span.news h2 {
+	width: 100%;
+	float: left;
+	position: relative;
+	top:0px;
+	left: 0px;
+	font-size: 1.8em;
+}
+#overview span.news em {
+width: 100%;
+float: left;
+display: block;
+font-style: normal;
+color:#a9a8a8;
+}
+#overview span.news p {
+  margin: 40px 0 0 0;
+  color:#a9a8a8;
+  line-height: 1.5em;
+}
+
+#overview span.news:hover h2 {
+	color:#a9a8a8;
+}
+
