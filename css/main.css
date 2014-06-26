@@ -18,9 +18,10 @@ textarea {
     color: #222;
 }
 
-html {
+html, body {
     font-size: 1em;
     line-height: 1.4;
+    height: 100%;
 }
 
 /*
@@ -108,6 +109,7 @@ section div:first-child{
     width: 1240px;
     margin: 0 auto;
     position: relative;
+    display: block;
 }
 
 
