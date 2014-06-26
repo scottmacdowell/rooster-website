@@ -29,6 +29,7 @@ section#topBar {
 	padding: 0;
 	margin-top: 40px;
 	position: relative;
+	cursor: pointer;
 
 }
 
