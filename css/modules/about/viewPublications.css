@@ -1,0 +1,21 @@
+/* ==========================================================================
+   about-viewPublications Module
+   --------------------------------------------------------------------------
+   > 1240px
+   ========================================================================== */
+section#about-viewPublications{
+	padding: 72px 0;
+}
+
+#about-viewPublications a{
+	margin: 0 auto;
+	height: 46px;
+	font-size: 1.8em;
+	line-height: 46px;
+	width: 246px;
+	border-bottom: 2px solid #000;
+	float: none;
+	display: block;
+	text-align: center;
+	color: #252525;
+}

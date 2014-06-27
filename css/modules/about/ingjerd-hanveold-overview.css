@@ -1,0 +1,32 @@
+/* ==========================================================================
+   about-ingjerd-hanveold-overview Module
+   --------------------------------------------------------------------------
+   > 1240px
+   ========================================================================== */
+section#about-ingjerd-hanveold-overview{ margin-top: 276px; }
+
+
+#about-ingjerd-hanveold-overview article {
+	float: left;
+	margin-left: 33.33%;
+	width: 66.66%;
+	display: block;
+}
+#about-ingjerd-hanveold-overview span {
+	height: auto;
+	width: 100%;
+	margin-top: 42px;
+	float: left;
+	display: block;
+	position: relative;
+	z-index: 1;
+}
+
+#about-ingjerd-hanveold-overview placeholder {
+	height: 342px;
+	float: left;
+	display: block;
+	background-color: gray;
+	width: 100%;
+	margin-top: 28px;
+}
