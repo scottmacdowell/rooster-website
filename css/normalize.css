@@ -90,6 +90,7 @@ textarea {
 
 body {
     margin: 0;
+    background-color: #f9f8f3;
 }
 
 /* ==========================================================================
@@ -321,7 +322,7 @@ dd {
 menu,
 ol,
 ul {
-    padding: 0 0 0 40px;
+    padding: 0px;
 }
 
 /**

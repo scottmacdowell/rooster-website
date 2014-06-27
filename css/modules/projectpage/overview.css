@@ -1,0 +1,23 @@
+/* ==========================================================================
+   projectPage-overview Module
+   --------------------------------------------------------------------------
+   > 1240px
+   ========================================================================== */
+section#projectPage-overview{ margin-top: 276px; }
+
+
+#projectPage-overview article {
+	float: left;
+	margin-left: 33.33%;
+	width: 66.66%;
+	display: block;
+}
+#projectPage-overview span {
+	height: auto;
+	width: 100%;
+	margin-top: 42px;
+	float: left;
+	display: block;
+	position: relative;
+	z-index: 1;
+}

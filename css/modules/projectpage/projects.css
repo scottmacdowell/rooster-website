@@ -1,0 +1,80 @@
+/* ==========================================================================
+   projectPage-projetcs Module
+   --------------------------------------------------------------------------
+   > 1240px
+   ========================================================================== */
+section#projectPage-projects{ margin-top: 13px; }
+
+
+#projectPage-projects ul {
+	float: left;
+	width: 400px;
+	display: block;
+	margin-right: 20px;
+}
+#projectPage-projects ul:last-child { margin-right: 0px; }
+
+#projectPage-projects li {
+	float: left;
+	display: inline-block;
+	width: 400px;
+	margin-top: 17px;
+	position: relative;
+	z-index: 1;
+}
+
+#projectPage-projects li:hover a{ display: block; }
+#projectPage-projects li:hover h2{ color: #ffffff; z-index: 4;}
+
+#projectPage-projects li img {
+	width: 100%;
+	display: block;
+	position: relative;
+	z-index: 2;
+}
+
+#projectPage-projects li h2 {
+	width:auto;
+	height: auto;
+	position: absolute;
+	z-index: 3;
+	font-size: 1em;
+	top: 18px;
+	left: 18px;
+}
+
+#projectPage-projects li a {
+	width:100%;
+	height: 100%;
+	position: absolute;
+	z-index: 3;
+	background: url('../../../images/black_hover_bg.png') repeat;
+	display: none;
+}
+
+
+#projectPage-projects li strong {
+	width: 198px;
+	height: 46px;
+	display: block;
+	margin: -18px auto 0 auto;
+	border: #ffffff 1px solid;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	line-height: 46px;
+	font-weight: normal;
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+}
+#projectPage-projects li strong:hover {
+	background-color: #000;
+}
+
+#projectPage-projects li.inactive {
+	opacity: .4;
+}
+
+#projectPage-projects li.inactive:hover a {display: none;}
+#projectPage-projects li.inactive:hover h2{ color: #252525; z-index: 4;}

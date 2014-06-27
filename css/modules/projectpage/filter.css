@@ -1,0 +1,36 @@
+/* ==========================================================================
+   projectPage-filter Module
+   --------------------------------------------------------------------------
+   > 1240px
+   ========================================================================== */
+section#projectPage-filter{ margin-top: 80px; }
+
+
+#projectPage-filter ul {
+	float: left;
+	width: auto;
+	display: block;
+	border: 2px black solid;
+}
+#projectPage-filter li {
+	height: 46px;
+	width: auto;
+	display: inline-block;
+	float: left;
+	line-height: 46px;
+	border-right: 2px solid black;
+	color: #252525;
+	text-align: center;
+	padding: 0 24px;
+	cursor: pointer;
+	
+}
+
+#projectPage-filter li:last-child {
+	border-right: none;
+}
+
+#projectPage-filter li:hover, #projectPage-filter li.active {
+	color: #f9f8f3;
+	background-color: #252525;
+}
